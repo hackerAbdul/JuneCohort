@@ -1,0 +1,44 @@
+.container{
+    width: 25%;
+    margin: auto;
+    border: 1px solid black;
+    text-align: center;
+    background-color: bisque;
+    border-radius: 10px;
+}
+
+.container img{
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.container nav ul{
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.container nav ul li{
+    display: block;
+    padding: 10px 15px;   
+}
+
+.container nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.container nav ul li a:hover{
+    border-bottom: 1px solid black;
+}
+
+.material-icons{
+    font-size: 24px;
+    color: blue;
+}
+
+span{
+    color: orange;
+}
